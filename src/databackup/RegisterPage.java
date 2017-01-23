@@ -107,10 +107,12 @@ public class RegisterPage extends javax.swing.JFrame {
         jPanel4.add(phoneNumber);
         phoneNumber.setBounds(350, 150, 280, 40);
 
+        signUpButton.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         signUpButton.setText("SignUp");
         jPanel4.add(signUpButton);
         signUpButton.setBounds(850, 210, 130, 40);
 
+        resetButton.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         resetButton.setText("Reset");
         jPanel4.add(resetButton);
         resetButton.setBounds(1050, 210, 130, 40);
